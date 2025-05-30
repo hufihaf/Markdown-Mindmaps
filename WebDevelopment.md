@@ -13,6 +13,8 @@
 >>[Languages](#languages-1)  
 >>[Databases](#databases)  
 
+>[API](#api)  
+
 ## Basics
 - What is a server, where is it, and what does it store? What is a cloud server?
 
@@ -23,13 +25,13 @@
 ### Languages
 - What are the three basic building blocks of a good frontend?
 
-- What does HTML, CSS, and JS stand for? What are their roles in frontend development?
+- What do HTML, CSS, and JS stand for? What are their roles in frontend development?
 ### Tools
 - What are package managers and build tools?
 
 - What is Sass?
-### Frameworks
-- What are frameworks?
+### Frameworks and Libraries
+- Difference between a framework and a library?
 
 - What are some examples of popular frameworks? What motivates a web developer to choose one over another?
 ### Version Control
@@ -38,7 +40,15 @@
 ### Languages
 - What are languages like PHP, Python, and Ruby used for in backend?
 
+- What is server-side rendering?
+- How do backend languages handle routing and logic?
 ### Databases
 - What are the two primary database types?
 
 - Why would a developer use one over the other?
+- What is CRUD?
+## API
+- What is an API?
+
+- What is REST?
+- What is GraphQL?
