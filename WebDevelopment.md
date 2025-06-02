@@ -8,6 +8,7 @@
 >>[Tools](#tools)  
 >>[Frameworks](#frameworks)  
 >>[Version Control](#version-control)  
+>>[Web Perforamnce](#web-performance)  
 
 >[Backend](#backend)  
 >>[Languages](#languages-1)  
@@ -36,6 +37,12 @@
 - What are some examples of popular frameworks? What motivates a web developer to choose one over another?
 ### Version Control
 - How does git work? Why is it so necessary in the workflow of a web dev team?
+### Web Performance
+- What are common causes of slow websites?
+
+- How do you optimize images, fonts, and code?
+- What is lazy loading?
+- What is code splitting?
 ## Backend
 ### Languages
 - What are languages like PHP, Python, and Ruby used for in backend?
@@ -46,6 +53,7 @@
 - What are the two primary database types?
 
 - Why would a developer use one over the other?
+- What are the pros/cons of MySQL, PostgreSQL, MongoDB, Redis?
 - What is CRUD?
 ## API
 - What is an API?
