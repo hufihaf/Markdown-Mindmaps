@@ -17,6 +17,8 @@
 >[**More Benefits**](#more-benefits-and-deeper-vocabularity)  
 >
 >[**AWS vs GCP vs Azure**](#services-compared)
+>
+>[**Strategies**](#strategies)
 
 ## Basic Cloud Computing Vocabulary
 - What is scalability? What is vertical and horizontal scaling?
@@ -65,6 +67,7 @@
 ## Services Compared
 Generally speaking...
 - AWS is most comprehensive but hard to use. Its reliable.
+
 - Azure has a much better UE but slightly less comprehensive as AWS. Strong in ML.
 - GCP is cheap and simple. Great for startups and programmers.
 
@@ -82,3 +85,10 @@ Generally speaking...
 | IoT                          | Better   | Worst    | Best     |
 | Databases                    | Best     | Worst    | Better   |
 | No Code Capabilities         | Yes      | No       | Yes      |
+
+## Strategies
+- What are the uncomfortable drawbacks of cloud computing? What are the clear drawbacks of on-premise servers?
+
+- What is a possible solution? How can you use PostgreSQL (portable) and employ a multi-cloud strategy?
+- How could you use both on-premise servers and the cloud at the same time?
+- Want AWS minus the pain of the bad UE? Use Vercel. The problem is that it is more expensive.
