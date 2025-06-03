@@ -1,20 +1,20 @@
 # Web Development
 
 ## Table of Contents
->[Basics](#basics)  
-
->[Frontend](#frontend)  
+>[**Basics**](#basics)  
+>
+>[**Frontend**](#frontend)  
 >>[Languages](#languages)  
 >>[Tools](#tools)  
 >>[Frameworks](#frameworks)  
 >>[Version Control](#version-control)  
 >>[Web Perforamnce](#web-performance)  
-
->[Backend](#backend)  
+>
+>[**Backend**](#backend)  
 >>[Languages](#languages-1)  
 >>[Databases](#databases)  
-
->[API](#api)  
+>
+>[**API**](#api)  
 
 ## Basics
 - What is a server, where is it, and what does it store? What is a cloud server?

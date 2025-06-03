@@ -1,16 +1,16 @@
 # Python for DS
 ## Table of Contents
->[Overview](#overview)  
+>[**Overview**](#overview)  
 >>[Python Strengths](#python-strengths)  
 >>[Comparison to Other Languages](#comparison-to-other-languages)  
-
->[Libraries](#libraries)  
+>
+>[**Libraries**](#libraries)  
 >>[Data Manipulation](#data-manipulation)  
 >>[Data Visualization](#data-visualization)  
-
->[AI Frameworks](#ai-frameworks)  
-
->[Enviroments](#enviroments)  
+>
+>[**AI Frameworks**](#ai-frameworks)  
+>
+>[**Enviroments**](#enviroments)  
 ## Overview
 ### Python Strengths
 - Is Python a high-level (simple syntax) or a low-level (like C) programming language? How does this help the language's ecosystem?

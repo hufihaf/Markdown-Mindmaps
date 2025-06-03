@@ -1,11 +1,16 @@
 # **AI Tools in Python**
 ## **Table of Contents**
->[Fundamentals](#machine-learning-fundamentals)   
->[Intro to TensorFlow](#tensorflow-basics)  
->[Core Learning Algs](#core-learning-algorithms)  
->[NNs in TF](#neural-networks-in-tensorflow)  
->[Beyond](#beyond)  
->[TF Compared to PyTorch](#tensorflow-and-pytorch-compared)  
+>[**Fundamentals**](#machine-learning-fundamentals)  
+> 
+>[**Intro to TensorFlow**](#tensorflow-basics)  
+>
+>[**Core Learning Algs**](#core-learning-algorithms)  
+>
+>[**NNs in TF**](#neural-networks-in-tensorflow)  
+>
+>[**Beyond**](#beyond)  
+>
+>[**TF Compared to PyTorch**](#tensorflow-and-pytorch-compared)  
 
 
 ## Machine Learning Fundamentals
