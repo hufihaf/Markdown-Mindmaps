@@ -1,9 +1,22 @@
 # Cloud Computing
 ## Table of Contents
->[]()
->[]()
->[]()
->[]()
+>[**Basic Vocab**](#basic-cloud-computing-vocabulary)  
+>
+>[**Benefits of Cloud Computing**](#benefits-of-cloud-computing)  
+>
+>[**Serverless Meaning**](#serverless-explained)  
+>
+>[**Scaling**](#scaling)  
+>
+>[**Event Driven Architecture**](#event-driven-architecture)  
+>
+>[**Container Orchestration**](#container-orchestration)  
+>
+>[**Storage**](#storage)  
+>
+>[**More Benefits**](#more-benefits-and-deeper-vocabularity)  
+>
+>[**AWS vs GCP vs Azure**](#services-compared)
 
 ## Basic Cloud Computing Vocabulary
 - What is scalability? What is vertical and horizontal scaling?
@@ -49,3 +62,23 @@
 
 - What is durability? How do services like AWS make sure data isn't lost?
 - What is IAC? What does it mean? What problem does it solve? 
+## Services Compared
+Generally speaking...
+- AWS is most comprehensive but hard to use. Its reliable.
+- Azure has a much better UE but slightly less comprehensive as AWS. Strong in ML.
+- GCP is cheap and simple. Great for startups and programmers.
+
+|   Benefits                   | AWS      | GCP      | Azure    |
+|------------------------------|----------|----------|----------|
+| Compute                      | Yes      | Yes      | Yes      |
+| Storage                      | Yes      | Yes      | Yes      |
+| Databases                    | Yes      | Yes      | Yes      |
+| Machine Learning             | Yes      | Yes+     | Yes      |
+| Intigration with MS Product  | No       | No       | Yes      |
+| Intigration with Google Prod | No       | Yes      | No       |
+| Pricing                      | Confusing| Cheapest | Easy     |
+| Serivces                     | Best     | Worst    | Better   |
+| Web Console UE               | Worst    | Best     | Better   |
+| IoT                          | Better   | Worst    | Best     |
+| Databases                    | Best     | Worst    | Better   |
+| No Code Capabilities         | Yes      | No       | Yes      |
