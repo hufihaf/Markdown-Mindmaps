@@ -1,42 +1,38 @@
 # Relational Databases
 ## Table of Contents
->[]()
+>[Basic Vocabulary](#introduction-to-relational-databases)
 >
->[]()
+>[SQL](#sql-structured-query-language)
 >
->[]()
+>[RDMS](#relational-database-management-systems)
 >
->[]()
+>[Database Architecture](#database-architecture)
 >
->[]()
+>[Normalization](#normalization--data-integrity)
 >
->[]()
+>[Security and Backups](#security-and-backups)
 >
->[]()
+>[Performance Tuning](#performance-tuning--optimization)
 >
->[]()
->
->[]()
->
->[]()
->
->[]()
->
->[]()
+>[Data Engineering](#data-engineering-considerations)
 
-## Introduction to Relational Databases
-- How is data organized in relational databases?
+## Need-to-Know Vocab
+- What's the difference between data, a data schema, and a database?
+- What is an entity and what is an attribute?
+- What makes a SQL databases "structured" and "relational"?
 
-- What is the role of keys in relational databases?
-- What is a primary key and why is it important?
-- What is a foreign key?
-- What is a schema in a database?
+- What does a non-relational database like NoSQL do instead of making the data tabular? Why would someone use a non-relational database?
+- What is the role of keys in relational databases? What are some attributes that a primary key must have?
 
-## Relational Database Management Systems (RDBMSs)
+## SQL: Structured Query Language
+- What is CRUD?
+
+## Relational Database Management Systems
 - What are the most common RDBMSs used in the industry?
 
 - How does PostgreSQL differ from MySQL or SQLite?
 - When would you choose a specific RDBMS over another?
+- How do entity relationship diagrams help employees manage databases?
 
 | Feature / System      | **PostgreSQL**                    | **MySQL**                       | **SQLite**                 |
 | --------------------- | --------------------------------- | ------------------------------- | -------------------------- |
@@ -50,41 +46,28 @@
 | **Community/Support** | Strong open-source community      | Massive community               | Minimal                    |
 
 
-## SQL: Structured Query Language
-- What is CRUD?
-
 ## Database Architecture
 - What are the main components of a database architecture?
 
-- What roles do the SQL engine, parser, optimizer, and executor play?
-- What is the function of the storage engine and buffer pool?
-- How do single-tier, two-tier, and three-tier architectures differ?
+- What are single-tier, two-tier, and three-tier architectures?
+- How do 
 ## Normalization & Data Integrity
 - What are the different normal forms (1NF, 2NF, 3NF, BCNF)?
 
 - Why is normalization important?
 - What types of constraints can be applied to a table?
-## Indexes, Views, and Transactions
-- What are the different types of indexes?
-
-- How do views work and when should you use them?
-- What are transactions and what are the ACID properties?
-## Security and Permissions
+## Security and Backups
 - How do user roles and permissions work in an RDBMS?
 
-- What are the SQL commands to grant or revoke permissions?
-- What methods are used to secure data at-rest and in-transit?
+- What are the different types of backups?
+- What is the difference between logical and physical backups?
+- What are common replication strategies?
+- How do you ensure high availability?
 ## Performance Tuning & Optimization
 - How do you analyze and optimize SQL queries?
 
 - What is the purpose of EXPLAIN/EXPLAIN ANALYZE?
 - What is table partitioning and vacuuming?
-## Backups, Recovery & Replication
-- What are the different types of backups?
-
-- What is the difference between logical and physical backups?
-- What are common replication strategies?
-- How do you ensure high availability?
 ## Data Engineering Considerations
 - What is an ETL pipeline and how is it implemented?
 
