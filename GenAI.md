@@ -1,8 +1,6 @@
 # Generative AI
 ## Table of Contents
->[Generative Models](#generative-models)  
->
->[Natural Language Generation](#natural-language-generation-nlg)  
+>[Generative Models](#generative-models)   
 >
 >[Image Generation](#image-generation) 
 >
@@ -16,18 +14,14 @@
 
 ## Generative Models
 - What is the difference between discriminative and generative models?
-- How do models like GANs, VAEs, and Transformers generate new data?
-- What are the pros and cons of autoregressive models?
----
-
-## Natural Language Generation (NLG)
-- How are transformers different from RNNs and LSTMs in NLG?
+- How do models like GANs (Generative Adversarial Networks), VAEs (Variational Autoencoders), and Transformers generate new data?
+- What is a RAG?
 ---
 
 ## Image Generation
 - How does Stable Diffusion work?
 
-- What is a GAN?
+- What is a GAN in image generation?
 - How is text-to-image generation achieved (e.g., DALL·E)?
 ---
 
