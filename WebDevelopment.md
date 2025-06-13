@@ -13,8 +13,7 @@
 >[**Backend**](#backend)  
 >>[Languages](#languages-1)  
 >>[Databases](#databases)  
->
->[**API**](#api)  
+>>[API](#api)  
 
 ## Basics
 - What is a server, where is it, and what does it store? What is a cloud server?
@@ -55,7 +54,7 @@
 - Why would a developer use one over the other?
 - What are the pros/cons of MySQL, PostgreSQL, MongoDB, Redis?
 - What is CRUD?
-## API
+### API
 - What is an API?
 
 - What is REST?
