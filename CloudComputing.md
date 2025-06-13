@@ -87,7 +87,7 @@ Generally speaking...
 | No Code Capabilities         | Yes      | No       | Yes      |
 
 ## Strategies
-- What are the uncomfortable drawbacks of cloud computing? What are the clear drawbacks of on-premise servers?
+- What are the uncomfortable drawbacks of cloud computing? What are the drawbacks of on-premise servers?
 
 - What is a possible solution? How can you use PostgreSQL (portable) and employ a multi-cloud strategy?
 - How could you use both on-premise servers and the cloud at the same time?
