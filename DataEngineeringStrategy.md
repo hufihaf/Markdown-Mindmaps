@@ -42,6 +42,10 @@
 
 - What tools turn processed data into clean analytics?
 - Why is processed data so crucial for ML training?
-- What is reverse ETL?
+- What is **reverse ETL**?
 ## Optimizing with AI
-- What is a RAG LLM?
+- What is a **RAG** LLM?
+
+- What step in the process is simplified with **Synthia**? 
+- What step in the process is simplified with **PandasAI**? 
+- What step in the process is simplified with **FastAPI**?
