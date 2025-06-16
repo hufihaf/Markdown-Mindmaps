@@ -2,9 +2,11 @@
 ## Table of Contents
 >[**Basic Vocab**](#basic-cloud-computing-vocabulary)  
 >
->[**Benefits of Cloud Computing**](#benefits-of-cloud-computing)  
+>[**Benefits of Cloud Computing**](#benefits-of-cloud-computing)
 >
->[**Serverless Meaning**](#serverless-explained)  
+>[**Drawbacks of Cloud Computing**](#drawbacks-of-cloud-computing)  
+>
+>[**"Serverless"**](#serverless-explained)  
 >
 >[**Scaling**](#scaling)  
 >
@@ -28,17 +30,22 @@
 - What is a deployment model, and what is service model?
 - What is the difference between public, provate, and hybrid cloud (service models)?
 - What is load balancing and what is auto-scaling?
-
 ## Benefits of Cloud Computing
 - What makes cloud computing more secure and scalable and less costly?
 
 - How does Event Driven Architecture improve traditional Request/Response protocol?
 - What is a container? How do ECS and EKS handle containers?
 - How does a traditional network differ from a cloud network like AWS in physical structure? 
-## "Serverless" Explained
-- AWS Lambda helps users in what way? 
+## Drawbacks of Cloud Computing
+- What are drawbacks of not having on-premeses servers?
 
-- AWS Opensearch redefines Serverless. What does this service provide, and how is it problematic?
+- How could one combine the benefits of cloud computing and using on-premesis computers? What cloud provider is best for this hybrid strategy?
+- What are the costs of the different cloud providers? Which one is the cheapest?
+## "Serverless" Explained
+- AWS Lambda streamlines the cloud computing process in what way? 
+
+- What does AWS OpenSearch do?
+- Why is this service called "serverless" when it technically *isn't*?
 ## Scaling
 - What is vertical scaling? What is horizontal scaling?
 
@@ -63,7 +70,6 @@
 - What is availability? With services like Azure or AWS, what is the usual availability percentage? How do they maximize their availability?
 
 - What is durability? How do services like AWS make sure data isn't lost?
-- What is IAC? What does it mean? What problem does it solve? 
 ## Services Compared
 Generally speaking...
 - AWS is most comprehensive but hard to use. Its reliable.

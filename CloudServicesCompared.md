@@ -1,5 +1,7 @@
 # Cloud Services Compared
 ## Table of Contents
+>[**Different Cloud Capabilities Explained**](#general-cloud-capabilities)
+>
 >[AWS](#aws)  
 >
 >[Azure](#azure)  
@@ -8,7 +10,35 @@
 >
 >[Multi-Cloud Strategy](#multi-cloud-strategy)  
 >
->[AWS and Azure](#aws-and-azure-compared)
+>[**AWS and Azure**](#aws-and-azure-compared)
+>
+>[**TL;DR Comparison**](#comparison)
+## General Cloud Capabilities
+### Compute
+- renting cloud processing power to execute code or run applications
+
+- What is AWS' compute service called?
+### Storage
+- What is the difference between file storage, object storage, and block storage?
+
+### Networking 
+- handle how your cloud resources (like virtual machines, storage, databases, etc.) communicate with each other and with the internet
+
+- How can you think of networking in relation to API's?
+### Databases
+- Relational / NoSQL databases provided by cloud providers
+
+### Identity Access Management
+- security tools, permissions, etc
+
+### Monitoring and Logging
+
+### Dev Tools
+- What is Infrastructure as Code (IaC)?
+
+- What is a CI/CD pipeline?
+---
+
 ## AWS
 - Which cloud platform is the most mature and widely adopted?
 
@@ -39,160 +69,24 @@
 
 - Which companies use a multi-cloud strategy and why?
 - How does this strategy effect redundancy, availability, and cost?
-
 ## AWS and Azure compared
-### What Does AWS have?
-#### 1. Computing Services
-- EC2 (Elastic Compute Cloud)
+### What Does AWS have that is special?
+- Databases
+- Content Delivery
+- Machine Learning & AI
+- Analytics
+- Application Integration
+- Migration & Transfer
+- Business Applications
+- Management & Governance
 
-- Lambda (Serverless Functions)
-- ECS (Elastic Container Service)
-- EKS (Elastic Kubernetes Service)
-- Lightsail (Simplified virtual servers)
+### What does Azure have that is special?
+- Databases (Cosmos)
+- Networking & Content Delivery
+- Machine Learning & AI
+- Analytics
 
-#### 2. Storage Services
-- S3 (Simple Storage Service)
-
-- EBS (Elastic Block Store)
-- EFS (Elastic File System)
-- Glacier (Archival storage)
-
-#### 3. Databases
-- RDS (Relational Database Service)
-
-- DynamoDB (NoSQL)
-- Aurora (relational DB)
-- Redshift (Data warehouse)
-- DocumentDB, Neptune (Graph DB)
-
-#### 4. Networking & Content Delivery
-- VPC (Virtual Private Cloud)
-
-- Route 53 (DNS & domain service)
-- CloudFront (Content Delivery Network)
-- API Gateway
-- Direct Connect
-
-#### 5. Security, Identity & Compliance
-- IAM (Identity & Access Management)
-
-- Cognito (User identity for apps)
-- KMS (Key Management Service)
-- Shield (DDoS protection)
--  Macie, GuardDuty, Inspector
-
-#### 6. Machine Learning & AI
-- SageMaker (Build/train/deploy ML models)
-
-- Rekognition (Image/video analysis)
-- Comprehend (Natural language processing)
-- Polly (Text to speech)
-- Lex (Chatbots)
-
-#### 7. Analytics
-- Athena (Query S3 data with SQL)
-
-- Glue (ETL service)
-- Kinesis (Real-time data streaming)
-- QuickSight (BI dashboards)
-
-#### 8. Developer Tools
-- CodeCommit (Git repo)
-
-- CodePipeline (CI/CD orchestration)
-- CodeBuild, CodeDeploy
-- Cloud9 (IDE)
-- X-Ray (App tracing)
-
-#### 9. Application Integration
-- SNS (Simple Notification Service)
-
-- SQS (Simple Queue Service)
-- Step Functions (Serverless workflows)
-- EventBridge (Event-driven app integration)
-
-#### 10. Migration & Transfer
-- AWS Migration Hub
-
-- Database Migration Service (DMS)
-- Snowball (Physical data transfer)
-- DataSync
-
-#### 11. Business Applications
-- WorkMail (Business email)
-
-- Chime (Video conferencing)
-- WorkSpaces (Virtual desktops)
-
-#### 12. Management & Governance
-- CloudWatch (Monitoring)
-
-- CloudTrail (Audit logging)
-- AWS Config, Trusted Advisor
-- Control Tower, Organizations
-
-### What does Azure have?
-#### 1. Computing Services
-- Azure Virtual Machines
-
-- App Service (Web apps, REST APIs)
-- Azure Functions (Serverless computing)
-- Azure Kubernetes Service (AKS)
-- Azure Container Instances
-- Azure Batch (Parallel job execution)
-
-#### 2. Storage Services
-- Azure Blob Storage (Object storage)
-
-- Azure Files (File shares)
-- Azure Queue Storage (Messaging between services)
-- Disk Storage (Managed block storage for VMs)
-- Azure Data Lake Storage (Big data analytics)
-
-#### 3. Databases
-- Azure SQL Database
-
-- Cosmos DB (Globally distributed NoSQL)
-- Azure Database for PostgreSQL / MySQL
-- Azure Synapse Analytics (Data warehouse)
-- Azure Cache for Redis
-- Azure SQL Managed Instance
-
-#### 4. Networking & Content Delivery
-- Azure Virtual Network (VNet)
-
-- Azure Load Balancer
-- Application Gateway (WAF)
-- Azure DNS
-- Azure ExpressRoute (Private network link)
-- Azure Front Door (Global HTTP/HTTPS routing)
-- Azure VPN Gateway
-
-#### 5. Security, Identity & Compliance
-- Azure Active Directory (AAD)
-
-- Azure Key Vault
-- Microsoft Defender for Cloud
-- Azure Information Protection
-- Azure Security Center
-- Azure Sentinel (SIEM)
-
-#### 6. Machine Learning & AI
-- Azure Machine Learning (ML platform)
-
-- Cognitive Services (Prebuilt AI: Vision, Speech, Language, Decision)
-- Azure OpenAI Service (GPT models from OpenAI)
-- Bot Services (Chatbots)
-
-#### 7. Analytics
-- Azure Data Factory (ETL/ELT pipelines)
-
-- Azure Stream Analytics (Real-time analytics)
-- Azure Synapse Analytics
-- Power BI Embedded
-- Azure HDInsight (Hadoop, Spark, Hive)
-
-### Comparison
+## Comparison
 - Azure has UI tools that support a hybrid and on premeses strategies, not just cloud.
 
 - Azure has less necessary code, using Microsoft Power Platform.

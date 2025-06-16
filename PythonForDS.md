@@ -31,7 +31,7 @@
 ### Data Visualization
 - **Seaborn** - Why would one use this tool over Matplotlib?
 
-- **Matplotlib** - Why would one use this toll over Seaborn?
+- **Matplotlib** - Why would one use this tool over Seaborn?
 ## AI Frameworks
 - **Scikit-Learn** - Is this library easy to use? What type of models is it capable of making?
 

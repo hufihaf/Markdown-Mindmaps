@@ -2,8 +2,6 @@
 ## Table of Contents
 >[Basic Vocabulary](#introduction-to-relational-databases)
 >
->[SQL](#sql-structured-query-language)
->
 >[RDMS](#relational-database-management-systems)
 >
 >[Database Architecture](#database-architecture)
@@ -11,8 +9,6 @@
 >[Normalization](#normalization--data-integrity)
 >
 >[Security and Backups](#security-and-backups)
->
->[Performance Tuning](#performance-tuning--optimization)
 >
 >[Data Engineering](#data-engineering-considerations)
 
@@ -23,9 +19,6 @@
 
 - What does a non-relational database like NoSQL do instead of making the data tabular? Why would someone use a non-relational database?
 - What is the role of keys in relational databases? What are some attributes that a primary key must have?
-
-## SQL: Structured Query Language
-- What is CRUD?
 
 ## Relational Database Management Systems
 - What are the most common RDBMSs used in the industry?
@@ -50,7 +43,6 @@
 - What are the main components of a database architecture?
 
 - What are single-tier, two-tier, and three-tier architectures?
-- How do 
 ## Normalization & Data Integrity
 - What are the different normal forms (1NF, 2NF, 3NF, BCNF)?
 
@@ -63,13 +55,8 @@
 - What is the difference between logical and physical backups?
 - What are common replication strategies?
 - How do you ensure high availability?
-## Performance Tuning & Optimization
-- How do you analyze and optimize SQL queries?
-
-- What is the purpose of EXPLAIN/EXPLAIN ANALYZE?
-- What is table partitioning and vacuuming?
 ## Data Engineering Considerations
-- What is an ETL pipeline and how is it implemented?
+- **What is an ETL pipeline and how is it implemented?**
 
 - What are the differences between OLAP and OLTP?
 - What is Change Data Capture (CDC) and how is it used?

@@ -44,10 +44,10 @@
 - What is code splitting?
 ## Backend
 ### Languages
-- What are languages like PHP, Python, and Ruby used for in backend?
+- What are PHP, Python, and Ruby used for in backend?
 
-- What is server-side rendering?
-- How do backend languages handle routing and logic?
+- What is server-side rendering? When would you use server-side, and when would you use client-side?
+- How does the backend handle routing and logic?
 ### Databases
 - What are the two primary database types?
 
