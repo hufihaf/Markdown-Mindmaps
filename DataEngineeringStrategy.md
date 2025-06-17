@@ -7,8 +7,7 @@
 >[Optimizing with AI](#optimizing-with-ai)
 >
 >[My Project at GBL](#my-project-at-gbl)
->
->[]()
+
 ## Vocabulary
 - What is **data engineering**?
 
