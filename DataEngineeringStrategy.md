@@ -6,7 +6,7 @@
 >
 >[Optimizing with AI](#optimizing-with-ai)
 >
->[]()
+>[My Project at GBL](#my-project-at-gbl)
 >
 >[]()
 ## Vocabulary
@@ -49,3 +49,110 @@
 - What step in the process is simplified with **Synthia**? 
 - What step in the process is simplified with **PandasAI**? 
 - What step in the process is simplified with **FastAPI**?
+
+## My Project at GBL
+### disparate/siloed tabular data (found in a mixture of CSVs and actual databases) --> bring into a singular data lake (which will then have api endpoints to allows people to access it). How do I do that?
+1. Choose your data lake technology:
+
+    - AWS: S3 + Glue + Athena + API Gateway/Lambda  
+
+    - Azure: Data Lake Storage Gen2 + Synapse + API Management
+
+    - On-prem: Hadoop HDFS, MinIO, or Delta Lake (Databricks)
+
+2. Ingest data from sources you have:
+
+    - CSVs: Flat files
+
+    - Databases: Likely MySQL, Postgres, or SQL Server
+
+    - Ingest these using ETL tools or custom code:
+
+        - For CSVs:
+            - read them with Python (Pandas), Spark, or Airbyte/Fivetran.
+
+            - Validate and clean (deduplication, formatting).
+
+            - Upload to data lake (e.g., S3) with structured foldering:  
+
+                ```s3://your-bucket/data/source_name/yyyy/mm/dd/file.csv```
+
+        - For Databases
+            - Use ETL tools:
+
+                - Airbyte (open-source)
+
+                - Fivetran (managed)
+
+                - Apache NiFi
+
+                - Or write custom Python/SQLAlchemy + pandas scripts to extract → clean → upload to lake.
+
+3. Normalize and Catalog the Data  
+You want unified, queryable formats.
+
+    - Convert data to Parquet or Delta Lake formats (efficient + columnar)
+
+    - Register metadata/catalogs using:
+
+        - AWS Glue Data Catalog
+
+        - Apache Hive Metastore
+
+        - DataHub / Amundsen (for data discovery)
+
+4. Enable Querying on the Data Lake  
+This allows analytics, exploration, and serving to APIs.
+
+    - Set up a querying engine:
+
+        - AWS Athena (for S3)
+
+        - Presto/Trino
+
+        - Databricks (if using Delta Lake)
+
+    - OR load into a warehouse layer (Redshift, Snowflake) if performance matters more.
+
+5. Expose via APIs now that data is consolidated, cleaned, and queryable:
+
+    - API Options
+        - AWS: Lambda functions + API Gateway that query Athena or access S3 directly
+
+        - Python:
+
+            - Use FastAPI or Flask
+
+            - Connect to Presto/Trino/BigQuery to return results via REST
+
+        - Query Use Case Example:
+
+            ```@app.get("/sales/{region}")
+            def get_sales(region: str):
+                df = run_query(f"SELECT * FROM sales WHERE region = '{region}'")
+                return df.to_dict(orient="records")```
+6. Schedule and Monitor
+Use Airflow or Prefect to:
+
+    - Automate daily/weekly ETL jobs
+
+    - Track failures/retries
+
+    - Audit logs and metrics
+
+- Example Stack (if using AWS):  
+
+    | Purpose	 | Tool                  |
+    |------------|-----------------------|
+    |Storage	 | S3                    |
+    |ETL	     |AWS Glue               |
+    |Query engine|	AWS Athena           |
+    |Catalog     |AWS Glue               |
+    |API layer	 |FastAPI on Lambda      |  
+    |Monitoring	 |CloudWatch + Airflow UI|  
+
+### General idea:
+- Raw Data (csv, json, pdf) goes through AWS Glue (ETL pipeline)
+
+- Glue moves data to S3 bucket. In this process, Python scripts can be run to clean individeal files (?)
+- S3 bucket's data is made accessible with AWS Athena, which privedes the API layer
