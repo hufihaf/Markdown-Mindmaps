@@ -17,6 +17,8 @@
 - What is **CI/CD**?
 - What does **ETL** stand for? What is an ETL pipeline?
 - Difference between an **object/file/block**?
+- What is the difference between a **database/data warehouse/datalake**?
+- What is a **Data Lakehouse**?
 - What is **IoT** and what are some examples of these types of devices?
 
 ## General Process
@@ -137,34 +139,25 @@ You want unified, queryable formats.
 ## Other Important Considerations
 ### Flask, Django, and FastAPI Compared
 #### Flask
--
+- minimalist, good for micro services
 
--
--
+- handles requests synchronously (one at a time) - this means it is not good for large traffic
+- relatively easy to learn
 #### Django
--
+- high level and includes many built in features
 
--
--
+- handles large amounts of data well, and permissions are easy to set up
+- relatively difficult to learn
 #### FastAPI
--
+- designed to build APIs with Python
 
--
--
+- generates OpenAPI and documentation
+- built asynchronously, meaning it can handle multiple requests at a time
+#### Conclusion -> Django should be used for this project (?)
 
-### Various Datalake possibilities
-#### S3 Bucket
--
+### Data Lakehouse
+![alt text](1.png) AWS STRATEGY  
+---
+![alt text](2.png)  MIXED STRATEGY - CHEAPER
+---
 
--
--
-#### AWS DBS
--
-
--
--
-#### PostgreSQL
--
-
--
--
