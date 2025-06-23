@@ -160,4 +160,3 @@ You want unified, queryable formats.
 ---
 ![alt text](2.png)  MIXED STRATEGY - CHEAPER
 ---
-
