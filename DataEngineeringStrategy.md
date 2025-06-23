@@ -7,6 +7,8 @@
 >[Optimizing with AI](#optimizing-with-ai)
 >
 >[My Project at GBL](#my-project-at-gbl)
+>
+>[Other Important Considerations](#other-important-considerations)
 
 ## Vocabulary
 - What is **data engineering**?
@@ -18,25 +20,20 @@
 - What is **IoT** and what are some examples of these types of devices?
 
 ## General Process
-### 1. Data Generation
-- What are **source systems**?
-
-- What must be considered when analyzing a source system (error rates, schema, generation rate, etc.)?
-- A lot of data is produced by IoT devices. What does an IoT **Message Broker** do?
-### 2. Data Storage
-- What are some key things to consider when choosing your storage solution?
-
-- What is **data temperature**? If data is accesed frequently, is it hot or cold?
-- What are the various storage solutions? What is a **data lake**?
-### 3. Data Ingestion
+### 1. Data Ingestion
 - What is data ingestion?
 
 - What is **batch mode** ingestion? What is streaming?
 - What is a push model? What is a **pull model**?
-### 4. Data Transformation
+### 2. Data Transformation
 - What is data transformation?
 - What are the general steps (give 5) in data transformation?
-### 5. Data Serving
+### 3. Data Storage
+- What are some key things to consider when choosing your storage solution?
+
+- What is **data temperature**? If data is accesed frequently, is it hot or cold?
+- What are the various storage solutions? What is a **data lake**?
+### 4. Data Serving
 - What are some of the many ways data can be implemented?
 
 - What tools turn processed data into clean analytics?
@@ -47,7 +44,7 @@
 
 - What step in the process is simplified with **Synthia**? 
 - What step in the process is simplified with **PandasAI**? 
-- What step in the process is simplified with **FastAPI**?
+- What step in the process is simplified with **FastAPI**, **Django**, or **Flask**?
 
 ## My Project at GBL
 ### disparate/siloed tabular data (found in a mixture of CSVs and actual databases) --> bring into a singular data lake (which will then have api endpoints to allows people to access it). How do I do that?
@@ -74,7 +71,9 @@
 
             - Upload to data lake (e.g., S3) with structured foldering:  
 
-                ```s3://your-bucket/data/source_name/yyyy/mm/dd/file.csv```
+                ```
+                s3://your-bucket/data/source_name/yyyy/mm/dd/file.csv
+                ```
 
         - For Databases
             - Use ETL tools:
@@ -100,19 +99,6 @@ You want unified, queryable formats.
 
         - DataHub / Amundsen (for data discovery)
 
-4. Enable Querying on the Data Lake  
-This allows analytics, exploration, and serving to APIs.
-
-    - Set up a querying engine:
-
-        - AWS Athena (for S3)
-
-        - Presto/Trino
-
-        - Databricks (if using Delta Lake)
-
-    - OR load into a warehouse layer (Redshift, Snowflake) if performance matters more.
-
 5. Expose via APIs now that data is consolidated, cleaned, and queryable:
 
     - API Options
@@ -120,7 +106,7 @@ This allows analytics, exploration, and serving to APIs.
 
         - Python:
 
-            - Use FastAPI or Flask
+            - Use FastAPI or Flask of Django
 
             - Connect to Presto/Trino/BigQuery to return results via REST
 
@@ -133,15 +119,6 @@ This allows analytics, exploration, and serving to APIs.
                 return df.to_dict(orient="records")
             ```
 
-6. Schedule and Monitor
-Use Airflow or Prefect to:
-
-    - Automate daily/weekly ETL jobs
-
-    - Track failures/retries
-
-    - Audit logs and metrics
-
 - Example Stack (if using AWS):  
 
     | Purpose	 | Tool                  |
@@ -149,12 +126,45 @@ Use Airflow or Prefect to:
     |Storage	 | S3                    |
     |ETL	     |AWS Glue               |
     |Query engine|	AWS Athena           |
-    |Catalog     |AWS Glue               |
     |API layer	 |FastAPI on Lambda      |  
-    |Monitoring	 |CloudWatch + Airflow UI|  
 
 ### General idea:
 - Raw Data (csv, json, pdf) goes through AWS Glue (ETL pipeline)
 
-- Glue moves data to S3 bucket. In this process, Python scripts can be run to clean individeal files (?)
+- Glue moves data to S3 bucket (or other data lake technologies). In this process, Python scripts can be run to clean individual datasets
 - S3 bucket's data is made accessible with AWS Athena, which provides the API layer
+
+## Other Important Considerations
+### Flask, Django, and FastAPI Compared
+#### Flask
+-
+
+-
+-
+#### Django
+-
+
+-
+-
+#### FastAPI
+-
+
+-
+-
+
+### Various Datalake possibilities
+#### S3 Bucket
+-
+
+-
+-
+#### AWS DBS
+-
+
+-
+-
+#### PostgreSQL
+-
+
+-
+-
