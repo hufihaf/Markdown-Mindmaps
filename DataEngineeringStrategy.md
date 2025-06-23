@@ -126,10 +126,13 @@ This allows analytics, exploration, and serving to APIs.
 
         - Query Use Case Example:
 
-            ```@app.get("/sales/{region}")
+            ```
+            @app.get("/sales/{region}")
             def get_sales(region: str):
                 df = run_query(f"SELECT * FROM sales WHERE region = '{region}'")
-                return df.to_dict(orient="records")```
+                return df.to_dict(orient="records")
+            ```
+
 6. Schedule and Monitor
 Use Airflow or Prefect to:
 
@@ -154,4 +157,4 @@ Use Airflow or Prefect to:
 - Raw Data (csv, json, pdf) goes through AWS Glue (ETL pipeline)
 
 - Glue moves data to S3 bucket. In this process, Python scripts can be run to clean individeal files (?)
-- S3 bucket's data is made accessible with AWS Athena, which privedes the API layer
+- S3 bucket's data is made accessible with AWS Athena, which provides the API layer
