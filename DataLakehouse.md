@@ -11,6 +11,8 @@
 >[AWS Implementation](#how-to-implement-with-aws)
 >
 >[Azure Implementation](#how-to-implement-with-azure)
+>
+>[My Project](#my-project)
 
 ## Vocabulary
 - What is **structured/unstructured/semi-structured data**?
@@ -67,3 +69,10 @@
 3. Create data tables
 4. Query with SQL and Python
 5. Connect to PowerBI.
+
+## My Project
+- My data is entirely unstructured.
+
+- I have a lot of data from a variety of sources. I need this data centralized and accesible with APIs. 
+- An AWS Datalake is the best option here.
+- 6/30/25 -> set up the S3 bucket.
