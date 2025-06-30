@@ -8,11 +8,9 @@
 >
 >[Data Lakehouse](#data-lakehouse)
 >
->[Comparison, and Why We Use What We Use](#comparison-and-why-we-use-what-we-use)
+>[AWS Implementation](#how-to-implement-with-aws)
 >
->[No More Questions: AWS Implementation](#no-more-questions-how-to-implement-with-aws)
->
->[No More Questions: Azure Implementation](#no-more-questions-how-to-implement-with-azure)
+>[Azure Implementation](#how-to-implement-with-azure)
 
 ## Vocabulary
 - What is **structured/unstructured/semi-structured data**?
@@ -45,33 +43,27 @@
 - Why is this option **cheaper**?
 
 ## Data Lakehouse
--
+- What **problems** does a Lakehouse architecture solve?
 
--
--
--
--
+- How do you implement a Lakehouse in **AWS/Azure/GCP**?
+- How does a Lakehouse work **under the hood**?
+- In a lakehouse, what **formats** are structured datasets put in?
+- What services can you use to make the data queryable?
 
-## Comparison, and Why We Use What We Use
--
+## How to implement with AWS
+1. Create an S3 Bucket and make three zones for raw data, cleaned data, and curated data.
 
--
--
--
--
+2. Set up a database in AWS Glue.
+3. Setup Apache Iceberg as your table format.
+- schema evolution, partition pruning, and ACID transactions to Parquet your data in S3.
+4. Create Iceberg tables with Amazon Athena
+5. Ingest data into the raw file storage. Use AWS Glue to transform certain datasets and write them to the curated Iceberg tables
+6. Query the data with Amazon Athena, or use Amazon QuickSite with dashboards
 
-## No More Questions: How to implement with AWS
--
+## How to implement with Azure
+1. Create an Azure Data Lake Storage Gen2 (organize raw, bronze, silver, gold files)
 
--
--
--
--
-
-## No More Questions: How to implement with Azure
--
-
--
--
--
--
+2. Use Azure Databricks (not really sure how this works).
+3. Create data tables
+4. Query with SQL and Python
+5. Connect to PowerBI.
