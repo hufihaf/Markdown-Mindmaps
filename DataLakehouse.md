@@ -75,4 +75,4 @@
 
 - I have a lot of data from a variety of sources. I need this data centralized and accesible with APIs. 
 - An AWS Datalake is the best option here.
-- 6/30/25 -> set up the S3 bucket and ingest data from sam.gov
+- 6/30/25 -> set up the S3 bucket. failed to set up API ingestion (no permissions).
