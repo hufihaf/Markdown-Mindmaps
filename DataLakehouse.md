@@ -76,4 +76,4 @@
 - I have a lot of data from a variety of sources. I need this data centralized and accesible with APIs. 
 - An AWS Datalake is the best option here.
 - 6/30/25 -> set up the S3 bucket. failed to set up API ingestion (no permissions).
-- 7/1/25 -> API key and address from sam.gov and data.gov gathered. Need to gain permissions still. Requested access to Athena and QuickSight services in order to get the output layer going.
+- 7/1/25 -> API key and address from sam.gov and data.gov gathered. Need to gain permissions still. Requested access to Athena and QuickSight services in order to get the output layer going. On second note, it doesn't seem that my project domain extends to visualization - I just need that API layer (Athena). Does this API layer work with PowerBI? -> Yes, just need Open Database Connectivity (ODBC) driver installed on PowerBI. 
