@@ -1,4 +1,4 @@
-# Data Lakehouse Strategy and Implementation with Cloud Services
+# Cloud Data Engineering
 ## Table of Contents
 >[**Vocabulary**](#vocabulary)
 >
@@ -99,3 +99,5 @@
 - a few python libraries exist that can help, namely:
     - **camelot / tabula / pdfplumber** have similar capabilities. Which should we use?
     - **PyMuPDF** has more granular control, in case the previous do not work (not automatic).
+    - **dockling** 
+    - **unstructured** 
