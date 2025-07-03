@@ -12,7 +12,7 @@
 >
 >[**Azure Data Engineering**](#azure-data-engineering)
 
-## Vocabulary
+## <span style="color:orange">Vocabulary</span>
 - What is **structured/unstructured/semi-structured data**?
 
 - What is **ETL/ELT**?
@@ -22,7 +22,7 @@
 - What is **Amazon S3** capable of? How do you differentiate it from **Amazon EBS** or **EFS**?
 - What is **schema-on-write / schema-on-read**?
 
-## Data Warehouse
+## <span style="color:orange">Data Warehouse</span>
 - What data **format(s)** exist in a data warehouse?
 
 - How would you **transform** your data into that format?
@@ -33,7 +33,7 @@
     - Consider cost, modern data formats, compatability with ML models and ML model training, 
 - Again, what is **schema-on-write** and what is **block storage**?
 
-## Data Lake
+## <span style="color:orange">Data Lake</span>
 - What data **format(s)** exist in a data warehouse?
 
 - At what point is the data **transformed**, if at all?
@@ -42,7 +42,7 @@
 - Again, what is **schema-on-read**?
 - Why is this option **cheaper**?
 
-## Data Lakehouse
+## <span style="color:orange">Data Lakehouse</span>
 - What **problems** does a Lakehouse architecture solve?
 
 - How do you implement a Lakehouse in **AWS/Azure/GCP**?
@@ -50,15 +50,15 @@
 - In a lakehouse, what **formats** are structured datasets put in?
 - What services can you use to make the data queryable?
 
-## Data Engineering in AWS
-### The S3 Bucket
+## <span style="color:orange">Data Engineering in AWS</span>
+### <span style="color:darkred">The S3 Bucket</span>
 - what is object-level storage?
 
 - how do you set up an API / SQL layer for the S3 bucket?
 - what are bucket lifecycle rules?
 - how do you process data in a bucket?
 
-#### Methods of ingesting data into a bucket
+#### <span style="color:green">Methods of ingesting data into a bucket</span>
 - manually through AWS management console
 
 - AWS CLI -> great for scripting, getting a lot of data on a machine into a bucket
@@ -70,20 +70,20 @@
 - **AWS DataSync** -> transfer data from on-prem to S3 quickly -> set up agent which connects to the S3. Give agent a source and a destination (can be NFS, SMB, or EFS). 
 - B.N. -> If the data is spread across multiple API's, we could just set up a Lambda function for each API (or make some sort of handler) and point them all to the S3 bucket to ingest.
 
-#### Between Ingestion and Storage -> Processing
+#### <span style="color:green">Between Ingestion and Storage -> Processing</span>
 - Critical step -> we do not want duplicate, mysterious, inconsistent data.
 
 - Solution = put data in same format, schema (if possible), clean the data, flatten the data (Athena), partition the data (naming it well), add tags, and perhaps compress.
 - How? -> AWS Glue can do the entire thing. Lambda can too, but you'll have to write the code yourself (may be necessary... again - we need to see the data).
 
-#### Data output
+#### <span style="color:green">Data output</span>
 - Handled by the Athena service
 
-## Azure Data Engineering
-### Main Storage Service: Data Lake Storage Gen2 (ADLS)
+## <span style="color:orange">Azure Data Engineering</span>
+### <span style="color:darkred">Main Storage Service: Data Lake Storage Gen2 (ADLS)</span>
 - Microsoft equivalent of the S3 Bucket -> object level storage that is heavily compatible with other tools
 
-### Data Ingestion with Multiple API's
+### <span style="color:darkred">Data Ingestion with Multiple API's</span>
 - set up the hierarchy in the ADLS (preferrably one file for each API?)
 
 - fetch data with an Azure function (like Lambda)
