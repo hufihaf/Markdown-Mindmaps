@@ -93,7 +93,7 @@
 - you would also use Azure functions to process the data -> they do not have an AWS Glue equivalent. perhaps each API function could pipe the data into this one processor function to reduce complexity.
 - I should research **Azure Data Factory** (might be another way to process our data)
 
-## Necessary Step Before Any Storage: ETL
+## <span style="color:orange">Necessary Step Before Any Storage: ETL</span>
 - for our project, we need to parse tables out of pdf's
 
 - a few python libraries exist that can help, namely:
