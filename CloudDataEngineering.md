@@ -11,6 +11,8 @@
 >[**Data Engineering in AWS**](#data-engineering-in-aws)
 >
 >[**Azure Data Engineering**](#azure-data-engineering)
+>
+>[]()
 
 ## <span style="color:orange">Vocabulary</span>
 - What is **structured/unstructured/semi-structured data**?
@@ -90,3 +92,10 @@
     - one function for each API seems to be the SOP. Pipe the data to the appropriate "file" in the ADLS.
 - you would also use Azure functions to process the data -> they do not have an AWS Glue equivalent. perhaps each API function could pipe the data into this one processor function to reduce complexity.
 - I should research **Azure Data Factory** (might be another way to process our data)
+
+## Necessary Step Before Any Storage: ETL
+- for our project, we need to parse tables out of pdf's
+
+- a few python libraries exist that can help, namely:
+    - **camelot / tabula / pdfplumber** have similar capabilities. Which should we use?
+    - **PyMuPDF** has more granular control, in case the previous do not work (not automatic).
