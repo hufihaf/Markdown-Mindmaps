@@ -101,3 +101,4 @@
     - **PyMuPDF** has more granular control, in case the previous do not work (not automatic).
     - **dockling** 
     - **unstructured** 
+- use **pandas** to convert these tables into csv's or json files
