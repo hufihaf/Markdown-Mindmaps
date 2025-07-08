@@ -1,16 +1,16 @@
 # Generative AI
 ## Table of Contents
->[Generative Models](#generative-models)   
+>[**Generative Models**](#generative-models)   
 >
->[Image Generation](#image-generation) 
+>[**Image Generation**](#image-generation) 
 >
->[Audio and Speech Generation](#audio-and-speech-generation)  
+>[**Audio and Speech Generation**](#audio-and-speech-generation)  
 >
->[Music Generation](#music-generation)  
+>[**Music Generation**](#music-generation)  
 >
->[Code Generation](#code-generation)  
+>[**Code Generation**](#code-generation)  
 >
->[Multimodal Generation](#multimodal-generation)  
+>[**Multimodal Generation**](#multimodal-generation)  
 
 ## Generative Models
 - What is the difference between discriminative and generative models?

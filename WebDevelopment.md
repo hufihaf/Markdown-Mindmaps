@@ -4,16 +4,16 @@
 >[**Basics**](#basics)  
 >
 >[**Frontend**](#frontend)  
->>[Languages](#languages)  
->>[Tools](#tools)  
->>[Frameworks](#frameworks)  
->>[Version Control](#version-control)  
->>[Web Perforamnce](#web-performance)  
+>>[**Languages**](#languages)  
+>>[**Tools**](#tools)  
+>>[**Frameworks**](#frameworks)  
+>>[**Version Control**](#version-control)  
+>>[**Web Perforamnce**](#web-performance)  
 >
 >[**Backend**](#backend)  
->>[Languages](#languages-1)  
->>[Databases](#databases)  
->>[API](#api)  
+>>[**Languages**](#languages-1)  
+>>[**Databases**](#databases)  
+>>[**API**](#api)  
 
 ## Basics
 - What is a server, where is it, and what does it store? What is a cloud server?

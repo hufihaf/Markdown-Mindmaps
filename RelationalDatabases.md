@@ -1,16 +1,16 @@
 # Relational Databases
 ## Table of Contents
->[Basic Vocabulary](#introduction-to-relational-databases)
+>[**Basic Vocabulary**](#introduction-to-relational-databases)
 >
->[RDMS](#relational-database-management-systems)
+>[**RDMS**](#relational-database-management-systems)
 >
->[Database Architecture](#database-architecture)
+>[**Database Architecture**](#database-architecture)
 >
->[Normalization](#normalization--data-integrity)
+>[**Normalization**](#normalization--data-integrity)
 >
->[Security and Backups](#security-and-backups)
+>[**Security and Backups**](#security-and-backups)
 >
->[Data Engineering](#data-engineering-considerations)
+>[**Data Engineering**](#data-engineering-considerations)
 
 ## Need-to-Know Vocab
 - What's the difference between data, a data schema, and a database?

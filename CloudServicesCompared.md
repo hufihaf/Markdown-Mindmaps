@@ -2,13 +2,13 @@
 ## Table of Contents
 >[**Different Cloud Capabilities Explained**](#general-cloud-capabilities)
 >
->[AWS](#aws)  
+>[**AWS**](#aws)  
 >
->[Azure](#azure)  
+>[**Azure**](#azure)  
 >
->[GCP](#gcp)  
+>[**GCP**](#gcp)  
 >
->[Multi-Cloud Strategy](#multi-cloud-strategy)  
+>[**Multi-Cloud Strategy**](#multi-cloud-strategy)  
 >
 >[**AWS and Azure**](#aws-and-azure-compared)
 >

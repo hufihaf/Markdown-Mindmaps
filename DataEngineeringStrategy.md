@@ -1,14 +1,14 @@
 # Data Engineering Strategy
 ## Table of Contents
->[Vocabulary](#vocabulary-to-get-used-to)
+>[**Vocabulary**](#vocabulary-to-get-used-to)
 >
->[General Process](#general-process)
+>[**General Process**](#general-process)
 >
->[Optimizing with AI](#optimizing-with-ai)
+>[**Optimizing with AI**](#optimizing-with-ai)
 >
->[My Project at GBL](#my-project-at-gbl)
+>[**My Project at GBL**](#my-project-at-gbl)
 >
->[Other Important Considerations](#other-important-considerations)
+>[**Other Important Considerations**](#other-important-considerations)
 
 ## Vocabulary
 - What is **data engineering**?
