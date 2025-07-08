@@ -11,7 +11,14 @@ In this repo you'll see some of the curriculums/mindmaps that I have made.
 
 I encourage you to read the files that cover topics you would like to learn about. You can also use these files to test your knowledge.
 
-## Chronology
-I started this practice in May 2025. I want to see how long I can keep using this strategy. Hopefully, if this strategy is good enough, I'll make these for years.
+Some of the more granular files abandon the question format. I simply used these Markdowns as notes.
 
-Computer Science is a field that requires continual thinking and learning. Every day, someone somewhere innovates. Consider this a strategy to stay on top of things.
+These markdowns are best viewed in VSCode, using the built in MArkdown visualizer. This is especially true for the files where I used HTML to add color to text (sorry not sorry).
+## Chronology
+I started this practice in May 2025. I want to see how long I can keep using this strategy. Hopefully, if this learning method is good enough, I'll keep making these for years.
+
+Computer Science is a field that requires continual thinking and learning. Every day, someone somewhere innovates. Consider this to be a strategy that keeps you ahead of things.
+
+A very useful website that assists my research:  
+https://www.thoughtworks.com/en-us/radar  
+
