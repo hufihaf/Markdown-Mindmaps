@@ -32,6 +32,7 @@
 
 - detects elements well
 - uses Detectron2 (Facebook object detection computer vision framework)
+- seems to be a predecessor to Docling
 ### <span style="color:orange">Camelot</span>
 - rule based, low level control
 
