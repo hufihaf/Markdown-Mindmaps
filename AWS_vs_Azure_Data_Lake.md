@@ -11,7 +11,7 @@
 - main purpose is to read, not to write (WORM)
 - integratable with analytical tools
 ### <span style="color:gray">Data Ingestion (In)</span>
-- source identification -> APIs, files, databases, etc.]
+- source identification -> APIs, files, databases, etc.
 
 - batch vs. streaming vs. manual
     - scheduled, IoT, uploads/scripts, respectively
