@@ -67,5 +67,5 @@
 - all of these tools can output to DataFrame except Docling
 - PyMuPDF is the only tool here that can read a pdf AND write a pdf. The other ones can only read and extract data
 
-- pdfplumber and PyMuPDF do OCR by outsourcing it to Tesseract OCR. The other tools cannot handle OCR. AMazon Textract has it built in.
+- pdfplumber and PyMuPDF do OCR by outsourcing it to Tesseract OCR. The other tools cannot handle OCR. Amazon Textract has it built in.
 - if you need output to pdf, you can use reportlab
