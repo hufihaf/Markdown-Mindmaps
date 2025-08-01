@@ -12,7 +12,8 @@
 - Founded in 2018 by data engineers at Google
 
 - Their team kept making scripts ad hoc to visualize their data
-- Sharing their insights required screenshotting or making a full-stack web app!
+- Manual screenshots
+- Or fully developing web apps
 - What if an engineer could build a UI in a few lines of code?
 ## Under the Hood
 - Uses React.js for frontend rendering
